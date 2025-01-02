@@ -18,7 +18,7 @@
 }
 
 body{
-    background-color: #6eeaff;
+    background-color: #d2d2ff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,6 +70,7 @@ h1{
     font-family: 'intelone-mono-font-family-regular';
     text-align: center;
     margin-bottom: 10px;
+    color: #8282eb;
 }
 
 #btn{
@@ -105,4 +106,26 @@ h1{
 
 #result-area:nth-child(2){
     margin-right: 30px;
+}
+
+#result-area span{
+    margin-right: 10px;
+    font-family: 'Ownglyph_meetme-Rg';
+    font-size: larger;
+    color: black;
+}
+
+.delete-btn{
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    background-color: rgb(147, 176, 236);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    background-color: darkred;
 }
